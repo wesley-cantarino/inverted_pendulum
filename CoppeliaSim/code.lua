@@ -3,7 +3,7 @@
 --
 -- u = -kx
 
--- M = 2,7; m = 0.2351; g = 9,8; l = 0,01;
+-- M = 2,7; m = 0.2351; g = 9,8; l = 0,3137;
 
 if (sim_call_type == sim.syscb_init) then
   revoluteJointHandle = sim.getObjectHandle('revoluteJoint')
